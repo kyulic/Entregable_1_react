@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;1,400;1,500;1,700&family=Fraunces:wght@700&family=Lexend+Deca:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Overpass:ital,wght@0,400;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* h1,h2,p{
+    margin-top: 0;
+    margin-bottom: 0;
+    
+} */
+
+.autor{
+    box-shadow: 10px 5px 5px black;
+    padding: 0.5rem 3rem;
+}
+
+@media(max-width:800px){
+
+    h1{
+        
+        text-shadow:  #525151 10px 5px 1px;
+        font-size: 2.8rem;
+        color: var(--letter_prin);
+        display: flex;
+        text-align: center;
+        align-items: center;
+        
+        
+    }
+    /* .app{
+        
+        
+        min-height: 100vh;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+            
+    } */
+    .btn{
+        border-radius:1.3rem ;
+        padding: 1.3rem 1rem ;
+        margin: 1rem 1rem ;
+        font-size: 1.2rem;
+    }
+    .card{
+        
+        padding: 0.5em 1em;
+        margin-bottom: 3.5em;
+        font-size: 1rem;
+        width: 90%;
+        
+    
+    }
+
+}
